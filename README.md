@@ -15,6 +15,7 @@ AI Assistant is a command-line program built with C# that utilizes artificial in
    - Obtain an OpenAI API key and replace the value of the `OPENAI_KEY` constant.
    - Obtain an ElevenLabs API key and replace the value of the `ELEVENLABSKEY` constant.
    - Configure the desired voice for the assistant by setting the `VOICE` constant.
+   - Inside the AIAssistant folder, locate the Transcriber.py file and place your OpenAI API key in the `openai.api_key` variable.
 2. Run the program.
 3. Upon launching, you can start interacting with the assistant:
    - Type a message and press Enter to send a text-based query.
